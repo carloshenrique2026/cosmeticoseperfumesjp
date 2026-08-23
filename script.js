@@ -225,7 +225,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // EDITÁVEL: Altere a mensagem padrão aqui
     const whatsappLinks = document.querySelectorAll('a[href*="wa.me"]');
     const defaultMessage = encodeURIComponent(
-        'Olá! Gostaria de agendar uma avaliação gratuita.'
+        'Olá! '
     );
 
     // Adiciona a mensagem padrão se não houver uma
